@@ -1,0 +1,11 @@
+.mountains-body{
+    background-image: url('/moreImages/homeBackgroundMountain.jpg');
+    background-size: cover;
+    /* This will make sure that  image is covered, respecting the aspect ratio */
+    background-position: center;
+    /* This will center the image */
+    height: 1100px;
+    /* Set the height you want */
+    width: 100%;
+    /* Set the width you want */
+}

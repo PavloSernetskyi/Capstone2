@@ -1,0 +1,7 @@
+footer {
+    background-color: rgb(138, 219, 180);
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
