@@ -1,3 +1,14 @@
+.navbar { 
+    /* background-color:rgb(148, 147, 147);
+    opacity: 0.6; 
+    filter:(opacity=50); */
+    
+/* 
+    margin-top: 5px;
+    border: 2px rgb(35,69,85) solid; */
+ }
+
+
 footer {
     background-color: rgb(138, 219, 180);
     position: sticky;
@@ -5,3 +16,5 @@ footer {
     width: 100%;
     padding: 10px;
 }
+
+
