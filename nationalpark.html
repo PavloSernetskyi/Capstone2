@@ -14,19 +14,48 @@
 </head>
 
 <body class="national-parks-body">
-    <header>
-        <nav>
-            <ul>
-                <a href="index.html">Index</a>
-                <a href="nationpark.html">National park</a>
-                <a href="mountains.html">Mountains</a>
-            </ul>
-
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <!-- can add inline background image to nav bar... style="background-image: url(images/main-page/targets.jpg);" -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">
+                    <!--add logo... images/log.JPG -->
+                    <img src="/moreImages/logos/logo3.PNG" alt="" width="200px" height="auto">
+                    <!-- <span class="h3">National Parks USA</span> -->
+                    
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav lead">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><span class="h4">Home</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="exploreMore.html"><span class="h4">Explore more</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="nationalpark.html"><span class="h4">Parks</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="mountains.html"><span class="h4">Mountains</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            <!--End of my navigation-->
+        </header>
+    </div>
     <main>
+        <div class="container">
+
+       
         <!-- radio buttons to handle search -->
-        <p>How would you prefer to search parks?</p>
+        <h3>How would you prefer to search parks?</h3>
         <label for="byState">By Location</label>
         <input type="radio" name="searchType" id="byState" onclick="hideOrShow('state')">
         
@@ -55,7 +84,7 @@
             <div class="d-flex justify-content-evenly flex-wrap" id="output2">
             </div>
         </section>
-
+    </div>
     </main>
 
     <script>

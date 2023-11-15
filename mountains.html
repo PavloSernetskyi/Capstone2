@@ -8,25 +8,65 @@
     <title>Basic Project Template</title>
     <link rel="stylesheet" href="css/mountains.css">
     <!-- Bootstrap 5.3.2 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body class="mountains-body">
-    <header>
-        <nav>
-            This is where you will add a navigation
-        </nav>
-        <br>
-        
+    <div class="container">
+        <header>
+            <!-- can add inline background image to nav bar... style="background-image: url(images/main-page/targets.jpg);" -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <!--add logo... images/log.JPG -->
+                        <img src="/moreImages/logos/logo3.PNG" alt="" width="200px" height="auto">
+                        <!-- <span class="h3">National Parks USA</span> -->
+
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav lead">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"><span
+                                        class="h4">Home</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="exploreMore.html"><span
+                                        class="h4">Explore more</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="nationalpark.html"><span class="h4">Parks</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="mountains.html"><span class="h4">Mountains</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--End of my navigation-->
+        </header>
+    </div>
+    <br>
+
 
     </header>
     <main>
-        <label for="mountainsDropdown">Choose Mountain</label>
-        <select id="mountainsDropdown"></select>
+        <div class="container">
 
-        <button type="button" id="mountainBtn">See more info</button>
 
-        <div class="d-flex justify-content-evenly flex-wrap" id="output">
+            <label for="mountainsDropdown"><h4>Choose Mountain</h4></label>
+            <select id="mountainsDropdown"></select>
+
+            <button type="button" id="mountainBtn">See more info</button>
+
+            <div class="d-flex justify-content-evenly flex-wrap" id="output">
+        </div>
     </main>
     <footer>
 
@@ -34,7 +74,9 @@
 
     <script src="scripts/mountainData.js"></script>
     <script src="scripts/myMountains.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
