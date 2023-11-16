@@ -42,7 +42,7 @@ function searchMountain() {
     console.log(`Elevation ${selectedMountainData.elevation}`);
 
     let message = "";
-    message += ` <div class="card my-3" style="width: 23rem; height: 75vh;">
+    message += ` <div class="card my-3" style="width: 23rem; height: 80vh;">
     <div class="card-body">
     <img class="mountain-photo" src="images/${selectedMountainData.img}">
         <h5 class="card-title">${selectedMountainData.name}</h5>
