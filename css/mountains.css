@@ -1,5 +1,7 @@
 .mountains-body{
     background-image: url("/moreImages/backgrounds/homeBackgroundMountain.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
 }

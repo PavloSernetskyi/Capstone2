@@ -1,7 +1,8 @@
 .national-parks-body{
     background-image: url('/moreImages/backgrounds/parks.jpg');
     background-size: cover;
-
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 

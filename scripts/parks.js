@@ -180,8 +180,19 @@ function searchByParkType() {
     const city = filteredParksByType[index].City;
     const zipCode = filteredParksByType[index].ZipCode;
     //TODO not all parks have phone numbers. some parks give me 0 in the carts. how to handle this ?
-    const phoneNumber = filteredParksByType[index].Phone;
-    //TODO  not all websites have link to a vebsite. so how do i display links only for those
+    //  const phoneNumber = filteredParksByType[index].Phone;
+    //  console.log(typeof phoneNumber);
+
+    let phoneNumber = null;
+    if(filteredParksByType[index].Phone == 0)
+    {
+      phoneNumber = "N/A";
+    }
+    else if(filteredParksByType[index].Phone.includes("("))
+    {
+      phoneNumber = filteredParksByType[index].Phone;
+    }
+    // TODO  not all websites have link to a vebsite. so how do i display links only for those
     //TODO  websites which has links. some logic with if statement ?
     const link = filteredParksByType[index].Visit;
 
