@@ -96,19 +96,60 @@ function searchLocation() {
     const address = filteredParksByState[index].Address;
     const city = filteredParksByState[index].City;
     const zipCode = filteredParksByState[index].ZipCode;
+    const latitude = filteredParksByState[index].Latitude;
+    const longitude = filteredParksByState[index].Longitude;
+    const state = filteredParksByState[index].State;
     //TODO not all parks have phone numbers. some parks give me 0 in the carts. how to handle this ?
-    const phoneNumber = filteredParksByState[index].Phone;
+//    const phoneNumber = filteredParksByState[index].Phone;
+
+    let phoneNumber = null;
+    if(filteredParksByState[index].Phone == 0)
+    {
+      phoneNumber = "N/A";
+    }
+    else if(filteredParksByState[index].Phone.includes("("))
+    {
+      phoneNumber = filteredParksByState[index].Phone;
+    }
+
+    //fax logic.
+    // fax logic. display fax otherwise display no fax available.
+    let fax = null;
+
+    if(filteredParksByState[index].Fax == 0)
+    {
+      fax = "Not available";
+    }
+    else if(filteredParksByState[index].Fax.includes("("))
+    {
+      fax = filteredParksByState[index].Fax;
+    }
+
+
+    //logic for dislayin existing website or if website not exsists then display message.
+    let link = null;
+    if(filteredParksByState[index].Visit){
+      link = `<a href="${filteredParksByState[index].Visit}" target="_blank" class="btn btn-secondary">Visit External Website</a>`
+    }
+    else
+    {
+      link = "No external website exists";
+    }
     //TODO  not all websites have link to a vebsite. so how do i display links only for those
     //TODO  websites which has links. some logic with if statement ?
-    const link = filteredParksByState[index].Visit;
-    const state = filteredParksByState[index].State;
+
     
-    message += ` <div class="card my-3" style="width: 18rem; height: 35vh;">
+    
+    message += ` <div class="card my-3" style="width: 18rem; height: 50vh;">
       <div class="card-body">
           <h5 class="card-title">${name}</h5>
           <p class="card-text"> Address: ${address} ${city} ${state} ${zipCode}</p>
           <p class="card-text">Phone number: ${phoneNumber}.</p>
-          <a href="${link}" target="_blank" class="btn btn-secondary">Visit External Website</a>
+          <p class="card-text">Fax: ${fax}.</p>
+          <p class="card-text">Coordinates:</p>
+            <p class="card-text">Latitude: ${latitude}</p>
+            <p class="card-text">Longitude: ${longitude}</p>
+            <p class="card-text">${link}</p>
       </div>
       </div>`;
 
@@ -179,10 +220,14 @@ function searchByParkType() {
     const address = filteredParksByType[index].Address;
     const city = filteredParksByType[index].City;
     const zipCode = filteredParksByType[index].ZipCode;
+    const latitude = filteredParksByType[index].Latitude;
+    const longitude = filteredParksByType[index].Longitude;
+  
     //TODO not all parks have phone numbers. some parks give me 0 in the carts. how to handle this ?
     //  const phoneNumber = filteredParksByType[index].Phone;
     //  console.log(typeof phoneNumber);
 
+    //phone number logic. display phone number othervise display no phone number available. N/A.
     let phoneNumber = null;
     if(filteredParksByType[index].Phone == 0)
     {
@@ -192,16 +237,43 @@ function searchByParkType() {
     {
       phoneNumber = filteredParksByType[index].Phone;
     }
+
+    // fax logic. display fax otherwise display no fax available.
+    let fax = null;
+
+    if(filteredParksByType[index].Fax == 0)
+    {
+      fax = "Not available";
+    }
+    else if(filteredParksByType[index].Fax.includes("("))
+    {
+      fax = filteredParksByType[index].Fax;
+    }
+
+
     // TODO  not all websites have link to a vebsite. so how do i display links only for those
     //TODO  websites which has links. some logic with if statement ?
-    const link = filteredParksByType[index].Visit;
+    //const link = filteredParksByType[index].Visit;
+    let link = null;
+    if(filteredParksByType[index].Visit){
+      link = `<a href="${filteredParksByType[index].Visit}" target="_blank" class="btn btn-secondary">Visit External Website</a>`
+    }
+    else
+    {
+      link = "No external website exists";
+    }
 
-    message += ` <div class="card my-3" style="width: 18rem; height: 35vh;">
+    message += ` <div class="card my-3" style="width: 18rem; height: 50vh;">
         <div class="card-body">
             <h5 class="card-title">${name}</h5>
             <p class="card-text"> Address: ${address} ${city} ${zipCode}</p>
             <p class="card-text">Phone number: ${phoneNumber}.</p>
-            <a href="${link}" target="_blank" class="btn btn-secondary">Visit External Website</a>
+            <p class="card-text">Fax: ${fax}.</p>
+            <p class="card-text">Coordinates:</p>
+            <p class="card-text">Latitude: ${latitude}</p>
+            <p class="card-text">Longitude: ${longitude}</p>
+            <p class="card-text">${link}</p>
+            
         </div>
         </div>`;
 
