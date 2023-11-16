@@ -53,7 +53,7 @@ function searchMountain() {
         <p class="card-text">Latitude: ${selectedMountainData.coords.lat} </p>
         <p class="card-text">Longitude: ${selectedMountainData.coords.lng} </p>
 
-        <a href="mountains.html" class="btn btn-primary">Go back to website</a>
+        <a href="mountains.html" class="btn btn-secondary">Go back to website</a>
         
     </div>
     </div>`;

@@ -56,19 +56,21 @@
     <main>
         <div class="container">
 
+            <label for="mountainsDropdown">
+                <h4>Choose Mountain</h4>
+            </label>
+            <select id="mountainsDropdown" class="form-select form-select-md mb-3" aria-label="Large select example">
+            </select>
 
-            <label for="mountainsDropdown"><h4>Choose Mountain</h4></label>
-            <select id="mountainsDropdown"></select>
-
-            <button type="button" id="mountainBtn">See more info</button>
+            <button id="mountainBtn" type="button" class="btn btn-secondary">Search by park type</button>
 
             <div class="d-flex justify-content-evenly flex-wrap" id="output">
-        </div>
+            </div>
     </main>
     <footer>
         <div class="footer">
             <p>&copy; 2023 National Parks USA. All Rights Reserved.</p>
-          </div>
+        </div>
     </footer>
 
     <script src="scripts/mountainData.js"></script>

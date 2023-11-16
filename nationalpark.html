@@ -80,10 +80,15 @@
           <span class="span">
             <label for="states">Choose State:</label>
           </span>
-          <select id="states"></select>
+          <!-- select menu -->
+          <select id="states" class="form-select form-select-lg mb-3" aria-label="Large select example">
+          </select>
           <!-- Search Button by location. -->
-          <button type="button" onclick="searchLocation()">Search by location</button>
-          <a href="nationalpark.html"><button>Clear Search</button></a>
+          <button type="button"  onclick="searchLocation()" class="btn btn-dark">Search by park type</button>
+
+          <!-- clear button -->
+          <a href="nationalpark.html"><button type="button" class="btn btn-dark">Clear Search</button></a>
+
           <div class="d-flex justify-content-evenly flex-wrap" id="output">
           </div>
         </section>
@@ -94,9 +99,15 @@
           <span class="span">
             <label for="parkType">Choose Park Type:</label>
           </span>
-          <select id="parkType"></select>
-          <button type="button" id="parkTypeBtn">Search by park type</button>
-          <a href="nationalpark.html"><button>Clear Search</button></a>
+          <!-- select menu -->
+          <select id="parkType" class="form-select form-select-lg mb-3" aria-label="Large select example">
+          </select>
+
+          <!-- search button by Type -->
+          <button id="parkTypeBtn" type="button" class="btn btn-dark">Search by park type</button>
+          
+          <!-- clear button -->
+          <a href="nationalpark.html"><button type="button" class="btn btn-dark">Clear Search</button></a>
           <div class="d-flex justify-content-evenly flex-wrap" id="output2">
           </div>
         </section>
