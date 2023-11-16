@@ -1,6 +1,8 @@
 
 .footer {
-    background-color: rgb(138, 219, 180);
+    /* background-color: rgb(138, 219, 180); */
+    /* background-color: paleturquoise; */
+    background-color: blanchedalmond;
     position: sticky;
     bottom: 0;
     width: 100%;
