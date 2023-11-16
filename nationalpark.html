@@ -111,23 +111,6 @@
   </footer>
   </main>
 
-  <script>
-
-    function hideOrShow(section) {
-      //making variables to manipulate by sections by id.
-      let stateSection = document.getElementById('state');
-      let parkTypeSection = document.getElementById('type');
-      if (section === 'state') {
-        //Show by state section and hide by park section.
-        stateSection.style.display = 'block';
-        parkTypeSection.style.display = 'none';
-      } else {
-        //Show by park type section and hide by state section.
-        stateSection.style.display = 'none';
-        parkTypeSection.style.display = 'block';
-      }
-    }
-  </script>
 
   <script src="scripts/locationData.js"></script>
   <script src="scripts/parkTypeData.js"></script>

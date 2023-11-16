@@ -27,6 +27,22 @@ window.onload = () => {
 
 }; // end of window onload.
 
+//hide or show info based on schoosen radio button.
+function hideOrShow(section) {
+  //making variables to manipulate by sections by id.
+  let stateSection = document.getElementById('state');
+  let parkTypeSection = document.getElementById('type');
+  if (section === 'state') {
+    //Show by state section and hide by park section.
+    stateSection.style.display = 'block';
+    parkTypeSection.style.display = 'none';
+  } else {
+    //Show by park type section and hide by state section.
+    stateSection.style.display = 'none';
+    parkTypeSection.style.display = 'block';
+  }
+}
+
 
 function addLocationsToDropdown() {
   // Get the dropdown element by its ID
@@ -92,7 +108,7 @@ function searchLocation() {
           <h5 class="card-title">${name}</h5>
           <p class="card-text"> Address: ${address} ${city} ${state} ${zipCode}</p>
           <p class="card-text">Phone number: ${phoneNumber}.</p>
-          <a href="#" class="btn btn-secondary">Visit External Website</a>
+          <a href="${link}" target="_blank" class="btn btn-secondary">Visit External Website</a>
       </div>
       </div>`;
 
@@ -174,7 +190,7 @@ function searchByParkType() {
             <h5 class="card-title">${name}</h5>
             <p class="card-text"> Address: ${address} ${city} ${zipCode}</p>
             <p class="card-text">Phone number: ${phoneNumber}.</p>
-            <a href="${link}" class="btn btn-secondary">Visit External Website</a>
+            <a href="${link}" target="_blank" class="btn btn-secondary">Visit External Website</a>
         </div>
         </div>`;
 
