@@ -1,11 +1,21 @@
 .national-parks-body{
-    background-image: url('/moreImages/homeBackgroundMountain.jpg');
+    background-image: url('/moreImages/parks.jpg');
     background-size: cover;
-    /* This will make sure that  image is covered, respecting the aspect ratio */
-    background-position: center;
-    /* This will center the image */
-    height: 1100px;
-    /* Set the height you want */
-    width: 100%;
-    /* Set the width you want */
+
+}
+
+
+input[type="radio"] {
+    transform: scale(1.5);  /* Scale the checkbox to 150% of its original size */
+    margin: 5px;            /* Optional: add some margin to ensure it doesn't overlap with other elements */
+}
+
+
+
+/* change the font size for labels for radio buttons. */
+.span{
+    font-size: 2.0rem; /* 1.5 times the font size of the root html element */
+    display: flex;
+    justify-content: center;
+
 }

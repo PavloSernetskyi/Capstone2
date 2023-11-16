@@ -1,20 +1,30 @@
-.navbar { 
-    /* background-color:rgb(148, 147, 147);
-    opacity: 0.6; 
-    filter:(opacity=50); */
-    
-/* 
-    margin-top: 5px;
-    border: 2px rgb(35,69,85) solid; */
- }
 
-
-footer {
+.footer {
     background-color: rgb(138, 219, 180);
     position: sticky;
     bottom: 0;
     width: 100%;
     padding: 10px;
+    opacity: 0.8; 
+    filter:(opacity=50);
+}
+
+body {
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Stack elements vertically */
+
+    background-position: 0% 40%; /* 0% for X-axis, 75% for Y-axis */
+
 }
 
 
+
+    html, body {
+    height: 100%;  /* Make sure the body takes the full height */
+    margin: 0;     /* Reset default margin */
+}
+
+/* push footer to the bottom. */
+.content {
+    flex: 1;       /* Allows the content to expand */
+}

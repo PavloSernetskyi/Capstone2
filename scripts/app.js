@@ -3,6 +3,7 @@
 window.onload = () => {
   //
   const states = document.getElementById("states");
+  hideOrShow();
   addParkTypesToDropdown();
   addLocationsToDropdown();
   addNationalParksToDropdown();
