@@ -28,7 +28,7 @@ A dedicated page to browse mountains and see additional information about specif
 
 ### 4. Special Feature: yellowstoneParkPage.html
 This page provides facts about Yellowstone National Parks and allows users to immerse in the experience of observing Geysers. This page has animation features and embedded music that will allow users to fully experience Yellowstone National Park's beauty.
-![yellowstoneParkPage](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/07a84700-4d35-4904-a59f-addbcf563945)
+![yellowstoneParkPage](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/5e281fc0-7ac0-408f-9f5c-53f318c1af7f)
 
 ### 5. general.css & home.css & mountains.css & nationalParks.css
 These pages have styling for HTML and background images.
