@@ -1,4 +1,4 @@
-# Capstone2: Enjoy the Outdoors
+![image](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/aa83f22f-29a7-4f03-9b83-9eee05bd535b)# Capstone2: Enjoy the Outdoors
 
 ## Introduction
 The **Enjoy the Outdoors** project focuses on building a website that helps a user find things to do to enjoy the great outdoors. This project incorporates technologies like Git, HTML, CSS, Bootstrap 5, and particularly, Java Script to store and process all of the data.
@@ -16,13 +16,15 @@ Here is the sample image of the home page:
 ![home-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/04b8461d-e86c-456a-9310-d6091b92b1ee)
 
 ### 2. nationalpark.html 
-A dedicated page that displays all available archery equipment for purchase.
+A dedicated page that allows to browse parks by location and by park type.
 ![products-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/d938da88-c584-4d0b-9e02-a767c03d9643)
 
 
 ### 3. mountains.html 
-This page presents all the necessary information and options related to the checkout process including payment methods and items added to the cart.
-![checkout-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/c5159ab3-c014-4f39-8191-127a2890ef97)
+A dedicated page to browse mountains and see additional information about specific mountains.
+![checkout-page] ![image](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/4dbb1f26-7967-4968-b571-7839306b0b00)
+
+
 
 ### 4. yellowstoneParkPage.html 
 These pages manage the user experience pertaining to account creation and user authentication, allowing users to register and sign into the website.
