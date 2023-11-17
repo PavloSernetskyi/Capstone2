@@ -7,7 +7,7 @@ The **Enjoy the Outdoors** project focuses on building a website that helps user
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap 5](https://getbootstrap.com/)
-* [Java Script](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ## Page Descriptions and Sample Screenshots
 
