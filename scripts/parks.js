@@ -11,7 +11,7 @@ window.onload = () => {
 
 //hide or show info based on schoosen radio button.
 function hideOrShow(section) {
-  //making variables to manipulate by sections by id.
+  //making variables to manipulate sections by id.
   let stateSection = document.getElementById('state');
   let parkTypeSection = document.getElementById('type');
   if (section === 'state') {
