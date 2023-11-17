@@ -1,4 +1,4 @@
-![image](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/aa83f22f-29a7-4f03-9b83-9eee05bd535b)# Capstone2: Enjoy the Outdoors
+# Capstone2: Enjoy the Outdoors
 
 ## Introduction
 The **Enjoy the Outdoors** project focuses on building a website that helps users find things to do to enjoy the great outdoors. This project incorporates technologies like Git, HTML, CSS, Bootstrap 5, and particularly, Java Script to store and process the data.
