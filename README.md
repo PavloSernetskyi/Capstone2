@@ -8,6 +8,9 @@ The **Enjoy the Outdoors** project focuses on building a website that helps user
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Bootstrap 5](https://getbootstrap.com/)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Free AI Logo Maker]((https://looka.com/logo-maker/)
+* [YouTube Video Converter](https://ytmp3.nu/DUHZ/)
+* [Free Video Footage](https://www.motionplaces.com/)
 
 ## Page Descriptions and Sample Screenshots
 
