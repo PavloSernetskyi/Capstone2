@@ -16,7 +16,7 @@ The **Enjoy the Outdoors** project focuses on building a website that helps user
 
 ### 1. index.html 
 Here is the sample image of the home page:
-![home-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/04b8461d-e86c-456a-9310-d6091b92b1ee)
+![home-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/79ad3312-db38-4e6c-ba1e-be9a959d0fb1)
 
 ### 2. nationalpark.html 
 A dedicated page that allows to browse parks by location and by park type. Two radio buttons will allow you to search for parks by location or by park type. This HTML file is linked to the js file named parks.js, which implements the hideOrShow function.
