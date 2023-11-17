@@ -24,7 +24,7 @@ A dedicated page that allows to browse parks by location and by park type. Two r
 
 ### 3. mountains.html 
 A dedicated page to browse mountains and see additional information about specific mountains.
-![mountains-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/4dbb1f26-7967-4968-b571-7839306b0b00)
+![mountains-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/3eccca8b-35fd-4d1c-8f17-a7e9a4d2a488)
 
 ### 4. Special Feature: yellowstoneParkPage.html
 This page provides facts about Yellowstone National Parks and allows users to immerse in the experience of observing Geysers. This page has animation features and embedded music that will allow users to fully experience Yellowstone National Park's beauty.
