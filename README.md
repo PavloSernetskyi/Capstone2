@@ -17,7 +17,8 @@ Here is the sample image of the home page:
 
 ### 2. nationalpark.html 
 A dedicated page that displays all available archery equipment for purchase.
-![products-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/0b57fbd8-5009-4697-9f95-c1437706d472)
+![products-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/d938da88-c584-4d0b-9e02-a767c03d9643)
+
 
 ### 3. mountains.html 
 This page presents all the necessary information and options related to the checkout process including payment methods and items added to the cart.
