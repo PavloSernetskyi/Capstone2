@@ -98,7 +98,7 @@ function searchLocation() {
     else {
       link = "No external website exists";
     }
-    message += ` <div class="card my-3" style="width: 18rem; height: 60vh;">
+    message += ` <div class="card my-3" style="width: 18rem; height: 45vh;">
       <div class="card-body">
           <h5 class="card-title">${name}</h5>
           <p class="card-text"> Address: ${address} ${city} ${state} ${zipCode}</p>
@@ -197,7 +197,7 @@ function searchByParkType() {
       link = "No external website exists";
     }
 
-    message += ` <div class="card my-3" style="width: 18rem; height: 60vh;">
+    message += ` <div class="card my-3" style="width: 18rem; height: 45vh;">
         <div class="card-body">
             <h5 class="card-title">${name}</h5>
             <p class="card-text"> Address: ${address} ${city} ${zipCode}</p>
