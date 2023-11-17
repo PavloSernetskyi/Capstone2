@@ -1,7 +1,7 @@
 # Capstone2: Enjoy the Outdoors
 
 ## Introduction
-The **Enjoy the Outdoors** project focuses on building website that helps a user find things to do to enjoy the great outdoors. This project incorporates technologies like Git, HTML, CSS, Bootstrap 5 and particularly, Java Script to store and process all of the data.
+The **Enjoy the Outdoors** project focuses on building a website that helps a user find things to do to enjoy the great outdoors. This project incorporates technologies like Git, HTML, CSS, Bootstrap 5, and particularly, Java Script to store and process all of the data.
 
 ## Built With
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -13,7 +13,7 @@ The **Enjoy the Outdoors** project focuses on building website that helps a user
 
 ### 1. index.html 
 Here is the sample image of the home page:
-![home-page](https://github.com/PavloSernetskyi/Capstone1/assets/74708976/b657ced2-e505-4bbb-82c9-f5ae1cfcf2d2)
+![home-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/04b8461d-e86c-456a-9310-d6091b92b1ee)
 
 ### 2. nationalpark.html 
 A dedicated page that displays all available archery equipment for purchase.
