@@ -37,7 +37,7 @@ These pages store data about parks, states, and locations using JSON.
 These pages implement all the logic, and behavior and run the program from the onload functions.
 
 ## 🚀 Deployed Link
-* [Visit Live Site]
+* [Visit Live Site] https://thegreatoutdoors.pavlosernetskyi.repl.co/
 
 ## Authors
 
