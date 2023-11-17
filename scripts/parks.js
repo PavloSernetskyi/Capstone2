@@ -63,7 +63,7 @@ function addLocationsToDropdown() {
 
 function addNationalParksToDropdown() {
   // Get the dropdown element by its ID
-
+  let parktype = document.getElementById('parkType');
   // Use forEach to iterate over the array
   nationalParksArray.forEach(function (park) {
     // Create a new option element
@@ -140,7 +140,7 @@ function searchLocation() {
 
     
     
-    message += ` <div class="card my-3" style="width: 18rem; height: 50vh;">
+    message += ` <div class="card my-3" style="width: 18rem; height: 60vh;">
       <div class="card-body">
           <h5 class="card-title">${name}</h5>
           <p class="card-text"> Address: ${address} ${city} ${state} ${zipCode}</p>
@@ -263,7 +263,7 @@ function searchByParkType() {
       link = "No external website exists";
     }
 
-    message += ` <div class="card my-3" style="width: 18rem; height: 50vh;">
+    message += ` <div class="card my-3" style="width: 18rem; height: 60vh;">
         <div class="card-body">
             <h5 class="card-title">${name}</h5>
             <p class="card-text"> Address: ${address} ${city} ${zipCode}</p>
