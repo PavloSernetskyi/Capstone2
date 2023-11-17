@@ -20,7 +20,7 @@ Here is the sample image of the home page:
 
 ### 2. nationalpark.html 
 A dedicated page that allows to browse parks by location and by park type. Two radio buttons will allow you to search for parks by location or by park type. This HTML file is linked to the js file named parks.js, which implements the hideOrShow function.
-![nationalpark-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/d938da88-c584-4d0b-9e02-a767c03d9643)
+![nationalpark-page](https://github.com/PavloSernetskyi/Capstone2/assets/74708976/058cc230-aaa1-446a-839e-35e4893e4619)
 
 ### 3. mountains.html 
 A dedicated page to browse mountains and see additional information about specific mountains.
