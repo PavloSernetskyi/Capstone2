@@ -5,14 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Parks</title>
+  <link rel="icon" href="moreImages\logos\logo5.PNG">
   <link rel="stylesheet" href="css/nationalParks.css">
   <link rel="stylesheet" href="css/general.css">
-
   <!-- Bootstrap 5.3.2 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-
 </head>
 
 <body class="national-parks-body">
@@ -26,7 +24,6 @@
               <!--add logo... images/log.JPG -->
               <img src="moreImages\logos\logo3.PNG" alt="" width="200px" height="auto" id="logo">
               <!-- <span class="h3">National Parks USA</span> -->
-
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,10 +54,6 @@
     <main>
       <!-- this div is styled so footer is at the bottom of the page. -->
       <div class="container">
-
-
-
-
         <!-- radio buttons to handle search -->
         <h2 style="text-align: center;">How do you prefer to search parks?</h2>
 
@@ -68,16 +61,10 @@
           <label for="byState">By Location</label>
           <input type="radio" name="searchType" id="byState" onclick="hideOrShow('state')">
         </span>
-
         <span class="span">
-
           <label for="byParkType">By Park Type</label>
           <input type="radio" name="searchType" id="byParkType" onclick="hideOrShow('parkType')" checked>
         </span>
-
-
-
-
         <!-- Search by state section -->
         <section id="state" class="text-center">
           <!-- Search by Location/By State. -->
@@ -126,7 +113,6 @@
     </div>
   </footer>
   </main>
-
 
   <script src="scripts/locationData.js"></script>
   <script src="scripts/parkTypeData.js"></script>

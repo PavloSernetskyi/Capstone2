@@ -9,7 +9,6 @@ function init() {
     displayAllMountains();
 }
 
-
 //populate dropdown menu.
 function addMountainsToDropdownMenu() {
     //grab html element for displaying in dropwdown.
@@ -28,7 +27,6 @@ function addMountainsToDropdownMenu() {
     mountainBtn.onclick = searchMountain;
 
 }
-
 
 //click button to choose mountain and display mountain name, description, evelation, etc.
 function searchMountain() {
