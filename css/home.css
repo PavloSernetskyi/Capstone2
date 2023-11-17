@@ -10,10 +10,13 @@ body{
 
 #carouselAutoplaying .carousel-item {
     height: 600px;
+    
 }
 
 #carouselAutoplaying .carousel-item img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-radius: 0.4rem;
 }
+
