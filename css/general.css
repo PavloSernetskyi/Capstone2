@@ -14,13 +14,8 @@
 body {
     display: flex; /* Enable Flexbox */
     flex-direction: column; /* Stack elements vertically */
-
     background-position: 0% 40%; /* 0% for X-axis, 75% for Y-axis */
-
 }
-
-
-
     html, body {
     height: 100%;  /* Make sure the body takes the full height */
     margin: 0;     /* Reset default margin */

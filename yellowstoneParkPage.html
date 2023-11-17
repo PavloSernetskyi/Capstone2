@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+        video {
+            /* viewwidth and view heigth 100% */
+            width: 100vw;
+            height: 100vh;
+            /* maintain aspect ration of the video to make sure it covers on whole screen. */
+            object-fit: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        li {
+            color: aliceblue;
+            font-size: 2.5rem;
+        }
+
+        /* styling fact boxes. */
+        .box {
+            background-color: gray;
+            padding: 20px;
+            border-radius: 50%;
+            max-width: 300px;
+            margin: 15px;
+            color: aliceblue;
+            font-size: 1rem;
+            opacity: 0.8;
+            filter: (opacity=50);
+
+            /* make content responsive with flex box properties. */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- can add inline background image to nav bar... style="background-image: url(images/main-page/targets.jpg);" -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <!--add logo... images/log.JPG -->
+                        <img src="moreImages\logos\logo3.PNG" alt="" width="200px" height="auto">
+                        <!-- <span class="h3">National Parks USA</span> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav lead">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"><span
+                                        class="h4">Home</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="nationalpark.html"><span class="h4">Parks</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="mountains.html"><span class="h4">Mountains</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="yellowstoneParkPage.html"><span class="h4">Yellowstone
+                                        National Park</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--End of my navigation-->
+        </header>
+    </div>
+    <!--End of my Header-->
+    <main>
+        <!-- making video as a background. -->
+        <video autoplay loop>
+            <source src="motionplaces.com-0046-c021.mp4">
+        </video>
+
+        <div class="container">
+            <div class="content text-center">
+
+                <h1>Yellowstone Facts</h1>
+                <div class="box">
+                    <h2>Fact 1</h2>
+                    <p>Yellowstone encompasses 3,472 square miles (2,221,766 acres) which makes it larger than Rhode
+                        Island and Delaware combined.</p>
+                </div>
+
+                <div class="box">
+                    <h2>Fact 2</h2>
+                    <p>Yellowstone is home to more than 500 active geysers (more than half the world’s geysers).</p>
+                </div>
+
+                <div class="box">
+                    <h2>Fact 3</h2>
+                    <p>There are approximately 1,000 miles of hiking trails in Yellowstone</p>
+                </div>
+
+                <div class="box">
+                    <h2>Fact 4</h2>
+                    <p>The vibrant colors you see in the park come from trillions of microorganisms called thermophiles.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
