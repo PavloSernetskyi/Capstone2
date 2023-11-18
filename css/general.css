@@ -1,4 +1,3 @@
-
 .footer {
     /* background-color: rgb(138, 219, 180); */
     /* background-color: paleturquoise; */
@@ -7,26 +6,35 @@
     bottom: 0;
     width: 100%;
     padding: 10px;
-    opacity: 0.8; 
-    filter:(opacity=50);
+    opacity: 0.8;
+    filter: (opacity=50);
 }
 
+
 body {
-    display: flex; /* Enable Flexbox */
-    flex-direction: column; /* Stack elements vertically */
-    background-position: 0% 40%; /* 0% for X-axis, 75% for Y-axis */
+    display: flex;
+    /* Enable Flexbox */
+    flex-direction: column;
+    /* Stack elements vertically */
+    background-position: 0% 40%;
+    /* 0% for X-axis, 75% for Y-axis */
 }
-    html, body {
-    height: 100%;  /* Make sure the body takes the full height */
-    margin: 0;     /* Reset default margin */
+
+html,
+body {
+    height: 100%;
+    /* Make sure the body takes the full height */
+    margin: 0;
+    /* Reset default margin */
 }
 
 /* push footer to the bottom. */
 .content {
-    flex: 1;       /* Allows the content to expand */
+    flex: 1;
+    /* Allows the content to expand */
 }
 
 /* style logo */
-#logo{
-   border-radius: 3rem;
+#logo {
+    border-radius: 3rem;
 }
