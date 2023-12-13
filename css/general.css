@@ -10,6 +10,15 @@
     filter: (opacity=50);
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icons img {
+    margin-left: 20px;
+}
 
 body {
     display: flex;
