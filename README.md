@@ -40,7 +40,7 @@ These pages store data about parks, states, and locations using JSON.
 These pages implement all the logic, and behavior and run the program from the onload functions.
 
 ## 🚀 Deployed Link
-* [Visit Live Site]([https://thegreatoutdoors.pavlosernetskyi.repl.co/](https://enjoy-the-outdoors-pavlosernetskyis-projects.vercel.app/))
+* [Visit Live Site](https://enjoy-the-outdoors-pavlosernetskyis-projects.vercel.app/index.html)
 ## Authors
 
  **Pavlo Sernetskyi** 
